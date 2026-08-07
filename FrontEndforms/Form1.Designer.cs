@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Formrecursos));
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
             PanelMenu = new Panel();
             buttonConfiguracion = new Button();
             pictureBox1 = new PictureBox();
@@ -116,6 +116,22 @@
             label6 = new Label();
             Configuracion = new TabPage();
             label10 = new Label();
+            panel9 = new Panel();
+            panel10 = new Panel();
+            label4 = new Label();
+            label12 = new Label();
+            panel11 = new Panel();
+            panel12 = new Panel();
+            label15 = new Label();
+            label18 = new Label();
+            panel13 = new Panel();
+            label21 = new Label();
+            label23 = new Label();
+            panel14 = new Panel();
+            panel15 = new Panel();
+            panel16 = new Panel();
+            label24 = new Label();
+            label25 = new Label();
             PanelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
@@ -136,6 +152,10 @@
             Reportes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
             Configuracion.SuspendLayout();
+            panel9.SuspendLayout();
+            panel11.SuspendLayout();
+            panel13.SuspendLayout();
+            panel15.SuspendLayout();
             SuspendLayout();
             // 
             // PanelMenu
@@ -332,7 +352,7 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Image = null;
+            pictureBox5.Image = Properties.Resources.icono_cudi_administradores;
             pictureBox5.Location = new Point(19, 19);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(54, 57);
@@ -382,7 +402,7 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = null;
+            pictureBox4.Image = Properties.Resources.icono_cudi_inactivos;
             pictureBox4.Location = new Point(19, 19);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(54, 57);
@@ -425,7 +445,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = null;
+            pictureBox3.Image = Properties.Resources.icono_cudi_activos;
             pictureBox3.Location = new Point(19, 19);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(54, 57);
@@ -477,7 +497,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = null;
+            pictureBox2.Image = Properties.Resources.icono_cudi_usuarios;
             pictureBox2.Location = new Point(19, 19);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(54, 57);
@@ -545,23 +565,23 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(40, 111, 229);
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = Color.FromArgb(40, 111, 229);
+            dataGridViewCellStyle13.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle13.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Estadousuario, Editar, Eliminar });
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = Color.Black;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(0, 201, 255);
-            dataGridViewCellStyle2.SelectionForeColor = Color.Black;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = Color.Black;
+            dataGridViewCellStyle14.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle14.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle14.SelectionBackColor = Color.FromArgb(0, 201, 255);
+            dataGridViewCellStyle14.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle14.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle14;
             dataGridView1.Location = new Point(141, 322);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
@@ -662,6 +682,10 @@
             // 
             // Recursos
             // 
+            Recursos.Controls.Add(panel15);
+            Recursos.Controls.Add(panel13);
+            Recursos.Controls.Add(panel11);
+            Recursos.Controls.Add(panel9);
             Recursos.Controls.Add(dataGridView2);
             Recursos.Controls.Add(button4);
             Recursos.Controls.Add(button3);
@@ -683,24 +707,24 @@
             dataGridView2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView2.BackgroundColor = SystemColors.ControlLightLight;
             dataGridView2.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = Color.FromArgb(40, 111, 229);
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle3.ForeColor = Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle15.BackColor = Color.FromArgb(40, 111, 229);
+            dataGridViewCellStyle15.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle15.ForeColor = Color.Black;
+            dataGridViewCellStyle15.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = DataGridViewTriState.True;
+            dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
             dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView2.Columns.AddRange(new DataGridViewColumn[] { NumCodigo, Recurso, tiporecurso, Estado, Editarcurso, Eliminarcurso });
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = Color.Black;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle4.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(0, 201, 255);
-            dataGridViewCellStyle4.SelectionForeColor = Color.Black;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.False;
-            dataGridView2.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.BackColor = Color.Black;
+            dataGridViewCellStyle16.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle16.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle16.SelectionBackColor = Color.FromArgb(0, 201, 255);
+            dataGridViewCellStyle16.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle16.WrapMode = DataGridViewTriState.False;
+            dataGridView2.DefaultCellStyle = dataGridViewCellStyle16;
             dataGridView2.Location = new Point(193, 304);
             dataGridView2.MultiSelect = false;
             dataGridView2.Name = "dataGridView2";
@@ -751,7 +775,7 @@
             // 
             button4.BackColor = Color.FromArgb(0, 224, 212);
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(761, 293);
+            button4.Location = new Point(774, 510);
             button4.Name = "button4";
             button4.Size = new Size(140, 35);
             button4.TabIndex = 4;
@@ -825,24 +849,24 @@
             dataGridView3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView3.BackgroundColor = Color.White;
             dataGridView3.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(40, 111, 229);
-            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle5.ForeColor = Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = Color.FromArgb(40, 111, 229);
+            dataGridViewCellStyle17.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle17.ForeColor = Color.Black;
+            dataGridViewCellStyle17.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = DataGridViewTriState.True;
+            dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView3.Columns.AddRange(new DataGridViewColumn[] { Fechareport, Tiporeport, Recursoreport, Usuarioreport, Verreport, Eliminarreport });
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = SystemColors.Window;
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle6.ForeColor = Color.FromArgb(64, 64, 64);
-            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            dataGridView3.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle18.BackColor = SystemColors.Window;
+            dataGridViewCellStyle18.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle18.ForeColor = Color.FromArgb(64, 64, 64);
+            dataGridViewCellStyle18.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = DataGridViewTriState.False;
+            dataGridView3.DefaultCellStyle = dataGridViewCellStyle18;
             dataGridView3.Location = new Point(134, 233);
             dataGridView3.MultiSelect = false;
             dataGridView3.Name = "dataGridView3";
@@ -979,7 +1003,167 @@
             label10.TabIndex = 0;
             label10.Text = "Configuracion";
             // 
-            // Form1
+            // panel9
+            // 
+            panel9.BackColor = Color.WhiteSmoke;
+            panel9.Controls.Add(panel10);
+            panel9.Controls.Add(label4);
+            panel9.Controls.Add(label12);
+            panel9.Location = new Point(29, 61);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(200, 100);
+            panel9.TabIndex = 7;
+            // 
+            // panel10
+            // 
+            panel10.BackColor = Color.FromArgb(40, 111, 229);
+            panel10.Location = new Point(0, 0);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(13, 100);
+            panel10.TabIndex = 10;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.FromArgb(40, 111, 229);
+            label4.Location = new Point(88, 39);
+            label4.Name = "label4";
+            label4.Size = new Size(28, 32);
+            label4.TabIndex = 1;
+            label4.Text = "0";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.Location = new Point(53, 11);
+            label12.Name = "label12";
+            label12.Size = new Size(89, 21);
+            label12.TabIndex = 0;
+            label12.Text = "RECURSOS";
+            // 
+            // panel11
+            // 
+            panel11.BackColor = Color.WhiteSmoke;
+            panel11.Controls.Add(panel12);
+            panel11.Controls.Add(label15);
+            panel11.Controls.Add(label18);
+            panel11.Location = new Point(246, 61);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(200, 100);
+            panel11.TabIndex = 8;
+            // 
+            // panel12
+            // 
+            panel12.BackColor = Color.FromArgb(0, 201, 255);
+            panel12.Location = new Point(0, 0);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(13, 100);
+            panel12.TabIndex = 10;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.FromArgb(0, 201, 255);
+            label15.Location = new Point(90, 39);
+            label15.Name = "label15";
+            label15.Size = new Size(28, 32);
+            label15.TabIndex = 1;
+            label15.Text = "0";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label18.Location = new Point(50, 11);
+            label18.Name = "label18";
+            label18.Size = new Size(105, 21);
+            label18.TabIndex = 0;
+            label18.Text = "DISPONIBLES";
+            // 
+            // panel13
+            // 
+            panel13.BackColor = Color.WhiteSmoke;
+            panel13.Controls.Add(label21);
+            panel13.Controls.Add(label23);
+            panel13.Controls.Add(panel14);
+            panel13.Location = new Point(474, 61);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(200, 100);
+            panel13.TabIndex = 9;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.ForeColor = Color.FromArgb(0, 224, 212);
+            label21.Location = new Point(89, 39);
+            label21.Name = "label21";
+            label21.Size = new Size(28, 32);
+            label21.TabIndex = 1;
+            label21.Text = "0";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label23.Location = new Point(55, 11);
+            label23.Name = "label23";
+            label23.Size = new Size(106, 21);
+            label23.TabIndex = 0;
+            label23.Text = "RESERVADOS";
+            // 
+            // panel14
+            // 
+            panel14.BackColor = Color.FromArgb(0, 224, 212);
+            panel14.Location = new Point(0, 0);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(13, 100);
+            panel14.TabIndex = 12;
+            // 
+            // panel15
+            // 
+            panel15.BackColor = Color.WhiteSmoke;
+            panel15.Controls.Add(panel16);
+            panel15.Controls.Add(label24);
+            panel15.Controls.Add(label25);
+            panel15.Location = new Point(694, 61);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(220, 100);
+            panel15.TabIndex = 13;
+            // 
+            // panel16
+            // 
+            panel16.BackColor = Color.FromArgb(94, 97, 220);
+            panel16.Location = new Point(0, 0);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(13, 100);
+            panel16.TabIndex = 11;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.ForeColor = Color.FromArgb(94, 97, 220);
+            label24.Location = new Point(101, 39);
+            label24.Name = "label24";
+            label24.Size = new Size(28, 32);
+            label24.TabIndex = 1;
+            label24.Text = "0";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label25.Location = new Point(43, 11);
+            label25.Name = "label25";
+            label25.Size = new Size(135, 21);
+            label25.TabIndex = 0;
+            label25.Text = "MANTENIMIENTO";
+            // 
+            // Formrecursos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -989,7 +1173,7 @@
             Controls.Add(PanelMenu);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
+            Name = "Formrecursos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Panel Administrador";
             PanelMenu.ResumeLayout(false);
@@ -1023,6 +1207,14 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
             Configuracion.ResumeLayout(false);
             Configuracion.PerformLayout();
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
+            panel11.ResumeLayout(false);
+            panel11.PerformLayout();
+            panel13.ResumeLayout(false);
+            panel13.PerformLayout();
+            panel15.ResumeLayout(false);
+            panel15.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1079,11 +1271,9 @@
         private Panel panel3;
         private Label label17;
         private Panel panel2;
-        private Label label16;
         private Label labelusuariosactivos;
         private Label label14;
         private Panel panel1;
-        private Label label13;
         private Label labeltotalusuarios;
         private Label label11;
         private Label label22;
@@ -1114,5 +1304,21 @@
         private DataGridViewTextBoxColumn Estado;
         private DataGridViewButtonColumn Editarcurso;
         private DataGridViewButtonColumn Eliminarcurso;
+        private Panel panel15;
+        private Panel panel16;
+        private Label label24;
+        private Label label25;
+        private Panel panel14;
+        private Panel panel13;
+        private Label label21;
+        private Label label23;
+        private Panel panel11;
+        private Panel panel12;
+        private Label label15;
+        private Label label18;
+        private Panel panel9;
+        private Panel panel10;
+        private Label label4;
+        private Label label12;
     }
 }
