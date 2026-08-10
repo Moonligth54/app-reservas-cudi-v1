@@ -1,8 +1,8 @@
 namespace FrontEndforms
 {
-    public partial class Formrecursos : Form
+    public partial class Form1 : Form
     {
-        public Formrecursos()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -44,6 +44,17 @@ namespace FrontEndforms
 
         private void labelusuariosactivos_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void Reportes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
 
         }
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matias\\Source\\Repos\\app-reservas-cudi-v1\\FrontEndforms\\FrontEndforms.csproj",
+      "projectUniqueName": "C:\\Users\\Matias\\source\\repos\\app-reservas-cudi-v1\\FrontEndforms\\FrontEndforms.csproj",
       "projectName": "FrontEndforms",
-      "projectPath": "C:\\Users\\Matias\\Source\\Repos\\app-reservas-cudi-v1\\FrontEndforms\\FrontEndforms.csproj",
+      "projectPath": "C:\\Users\\Matias\\source\\repos\\app-reservas-cudi-v1\\FrontEndforms\\FrontEndforms.csproj",
       "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matias\\Source\\Repos\\app-reservas-cudi-v1\\FrontEndforms\\obj\\",
+      "outputPath": "C:\\Users\\Matias\\source\\repos\\app-reservas-cudi-v1\\FrontEndforms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
