@@ -1,0 +1,16 @@
+C:\Users\milen\source\repos\Devolucion\bin\Debug\net10.0-windows\Devolucion.exe
+C:\Users\milen\source\repos\Devolucion\bin\Debug\net10.0-windows\Devolucion.deps.json
+C:\Users\milen\source\repos\Devolucion\bin\Debug\net10.0-windows\Devolucion.runtimeconfig.json
+C:\Users\milen\source\repos\Devolucion\bin\Debug\net10.0-windows\Devolucion.dll
+C:\Users\milen\source\repos\Devolucion\bin\Debug\net10.0-windows\Devolucion.pdb
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.Form1.resources
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.csproj.GenerateResource.cache
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.AssemblyInfoInputs.cache
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.AssemblyInfo.cs
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.csproj.CoreCompileInputs.cache
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.dll
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\refint\Devolucion.dll
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.pdb
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\Devolucion.genruntimeconfig.cache
+C:\Users\milen\source\repos\Devolucion\obj\Debug\net10.0-windows\ref\Devolucion.dll
