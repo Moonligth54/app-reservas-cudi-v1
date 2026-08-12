@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\sistemaprestamo\capaentidad\bin\Debug\capaentidad.dll
+C:\Users\Usuario\source\repos\sistemaprestamo\capaentidad\bin\Debug\capaentidad.pdb
+C:\Users\Usuario\source\repos\sistemaprestamo\capaentidad\obj\Debug\capaentidad.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\sistemaprestamo\capaentidad\obj\Debug\capaentidad.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\sistemaprestamo\capaentidad\obj\Debug\capaentidad.dll
+C:\Users\Usuario\source\repos\sistemaprestamo\capaentidad\obj\Debug\capaentidad.pdb
+C:\Users\milen\source\repos\sistema_actualizado\capaentidad\bin\Debug\capaentidad.dll
+C:\Users\milen\source\repos\sistema_actualizado\capaentidad\bin\Debug\capaentidad.pdb
+C:\Users\milen\source\repos\sistema_actualizado\capaentidad\obj\Debug\capaentidad.csproj.AssemblyReference.cache
+C:\Users\milen\source\repos\sistema_actualizado\capaentidad\obj\Debug\capaentidad.csproj.CoreCompileInputs.cache
+C:\Users\milen\source\repos\sistema_actualizado\capaentidad\obj\Debug\capaentidad.dll
+C:\Users\milen\source\repos\sistema_actualizado\capaentidad\obj\Debug\capaentidad.pdb
