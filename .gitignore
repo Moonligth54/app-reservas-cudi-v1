@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET
+bin/
+obj/
+
+# NuGet
+packages/
+Packages/
+
+# Logs
+*.log
+
+# Sistema / temporales
+*.tmp
+*.temp
+
+# IDE
+.idea/
+.vscode/
