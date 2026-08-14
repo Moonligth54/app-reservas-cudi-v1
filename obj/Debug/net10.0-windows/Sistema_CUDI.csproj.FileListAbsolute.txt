@@ -1,6 +1,0 @@
-C:\Users\usuario\Desktop\app_administracion_cudi_v1\Sistema_CUDI\obj\Debug\net10.0-windows\Sistema_CUDI.loginform.resources
-C:\Users\usuario\Desktop\app_administracion_cudi_v1\Sistema_CUDI\obj\Debug\net10.0-windows\Sistema_CUDI.csproj.GenerateResource.cache
-C:\Users\usuario\Desktop\app_administracion_cudi_v1\Sistema_CUDI\obj\Debug\net10.0-windows\Sistema_CUDI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usuario\Desktop\app_administracion_cudi_v1\Sistema_CUDI\obj\Debug\net10.0-windows\Sistema_CUDI.AssemblyInfoInputs.cache
-C:\Users\usuario\Desktop\app_administracion_cudi_v1\Sistema_CUDI\obj\Debug\net10.0-windows\Sistema_CUDI.AssemblyInfo.cs
-C:\Users\usuario\Desktop\app_administracion_cudi_v1\Sistema_CUDI\obj\Debug\net10.0-windows\Sistema_CUDI.csproj.CoreCompileInputs.cache
